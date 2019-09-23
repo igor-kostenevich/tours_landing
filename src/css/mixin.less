@@ -1,0 +1,14 @@
+@import "variables.less";
+
+.bg-img(@r, @g, @b, @opacity, @src) {
+    background:
+        linear-gradient(rgba(@r, @g, @b, @opacity)),
+        url(@src) center center no-repeat;
+    background-size: cover;
+}
+
+.display-flex-position(@content, @items){
+    display: flex;
+    justify-content: @content;
+    align-items: @items;
+}

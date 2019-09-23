@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Template</title>
+  <link rel="stylesheet" href="./libs/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+  <link rel="stylesheet" href="./libs/slick.css">
+  <link rel="stylesheet" href="./libs/slick-theme.css">
+  <link rel="stylesheet" href="./libs/nice-select.css">
+  <link rel="stylesheet" href="./build/css/style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header-wrapp container">
+          <div class="logo">
+            <img src="./build/img/logo.png" alt="">
+          </div>
+          <div class="navigation-container">
+            <div class="contacts header__contacts ">
+              <address>г. Харьков, ул. Мироносицкая 10а</address>
+              <div class="tel"><a href="tel:+380999908100">+38 (099) 990-81-00 <span>(viber, telegram)</span></a></div>
+              <div class="social">
+                <a href="#"><img src="./build/img/facebook-icon.png" alt="facebook"></a>
+                <a href="#"><img src="./build/img/instagramm-icon.png" alt="instagramm"></a>
+              </div>
+            </div>
+            <nav class="navbar-menu" id="nav">
+              <i class="btn-menu-mobile fas fa-bars"></i>
+              <ul class="navbar-menu__links">
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Туры</a><i class="fas fa-chevron-down"></i>
+                  <ul class="sub-menu">
+                    <li><a href="#">Горящие туры</a></li>
+                    <li><a href="#">Поиск тура</a></li>
+                    <li><a href="#">Туры по Украине</a></li>
+                    <li><a href="#">Экскурсионные туры</a></li>
+                    <li><a href="#">Week end туры</a></li>
+                  </ul>
+
+                </li>
+                <li><a href="#">Страны</a></li>
+                <li><a href="#">Услуги</a><i class="fas fa-chevron-down"></i>
+                  <ul class="sub-menu">
+                    <li><a href="#">Авиабилеты</a></li>
+                    <li><a href="#">Визовая поддержка</a></li>
+                    <li><a href="#">Индивидуальный трансфер</a></li>
+                    <li><a href="#">Подарочные сертификаты</a></li>
+                    <li><a href="#">Бронирование отелей и апартаментов</a></li>
+                    <li><a href="#">Как забронировать и оплатить тур</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">О компании</a></li>
+                <li><a href="#">Контакты</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+        <div class="banner-slider">
+          <img src="./build/img/banner1.jpg" alt="slide-img">
+          <img src="./build/img/banner2.jpg" alt="slide-img">
+          <img src="./build/img/banner3.jpg" alt="slide-img">
+        </div>
+        <article class="banner">
+          <div class="banner__box-content">
+            <div class="banner-title">
+              <h1>Лучшие предложения по солнечному Египту из Харькова</h1>
+            </div>
+            <div class="main-button banner-button">
+              <button>Получить предложение</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </header>
+
+
+    <main>
+     <!--  <div class="offers-slide">
+            <div class="offers-slide-card">
+              <div class="image">
+                <img src="./build/img/offers-slide3.jpg" alt="slide">
+              </div>
+              <div class="info">
+                <div class="title-card">8 марта в Cyrene Sharm hotel</div>
+                <div class="date-card">(12.03.2018 — 19.03.2018)</div>
+                <div class="desc-card">Перелёт, питание по системе all inclusive, трансфер</div>
+                <div class="price-card">1 259 грн <span>/за 1 человека</span></div>
+                <button class="btn-card"><i class="fas fa-chevron-right"></i></button>
+              </div>
+            </div>
+          </div> -->
+      
+
+
+      <!-- SECTION ADVANTAGE -->
+      <section class="advantage">
+        <div class="container">
+          <h3 class="section-title">Наши преимущества</h3>
+          <div class="advantage-box">
+            <div class="advantage-box__image">
+              <img src="./build/img/adv-img.jpg" class="img-responsive img-thumbnail" alt="image">
+            </div>
+            <div class="advantage-box__text">
+              Очень долго подбирали разные варианты для того, чтобы отпраздновать свой юбилейный День рождения в
+              путешествии и не могли определиться... Решили обратиться за помощью в турагенство. Гульнара, выслушав все
+              пожелания, предложила отдых в Турции, отель Justiniano Club Park Conti 5* в Окурджалар возле Аланьи. Мы
+              очень благодарны ей за предложенный вариант!!!! Отдых получился отличный! Отель с большой ухоженной
+              территорией, внимательный обслуживающий персонал. Отличный номер с видом на море.
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="select-form-tours">
+        <div class="container">
+          <h3 class="section-title">Хочу предложение по туру</h3>
+          <form action="#" class="form-sel" id="form-tours">
+            <div class="input-item"><input type="text" name="name" placeholder="Имя" autocomplete="off"></div>
+            <div class="input-item"><input type="email" name="email" placeholder="Email" autocomplete="off"></div>
+            <div class="input-item"><input type="tel" name="tel" placeholder="Телефон" autocomplete="off"></div>
+            <div class="input-item">
+              <select name="countries" id="countries" class="select">
+                <option data-display="Страна тура">Страна тура </option>
+                <option value="Турция">Турция</option>
+                <option value="Египет">Египет</option>
+                <option value="Шри-Ланка">Шри-Ланка</option>
+                <option value="Доминикана">Доминикана</option>
+              </select>
+            </div>
+            <div class="main-button">
+              <button>Получить предложение</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-content__item">
+          <div class="logo">
+            <img src="./build/img/logo-footer.png" alt="logo">
+          </div>
+          <div class="desc">Кураж тур агенство,которое предоставляет услуги по поиску, оформлению и подбору туров для
+            вас и ваших родных.</div>
+          <div class="brand-dev">
+            <span>Создание сайта &mdash; </span>
+            <img src="./build/img/logo-dev.png" alt="logo webakula">
+          </div>
+        </div>
+
+        <div class="footer-content__item">
+          <div class="footer-title">Навигация</div>
+          <ul class="footer-nav">
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">О компании</a></li>
+            <li><a href="#">Туры</a></li>
+            <li><a href="#">Контакты</a></li>
+            <li><a href="#">Услуги</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-content__item">
+          <div class="footer-title">Поддержка</div>
+          <ul class="support">
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Блог</a></li>
+            <li><a href="#">Обратная связь</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-content__item">
+          <div class="footer-title">Контакты</div>
+          <div class="contacts footer__contacts ">
+            <address>г. Харьков, ул. Лермонтовская 10а</address>
+            <div class="tel"><a href="tel:+380999908100">+38 (099) 990-81-00</a></div>
+            <div class="social">
+              <a href="#"><img src="./build/img/facebook-icon.png" alt="facebook"></a>
+              <a href="#"><img src="./build/img/instagramm-icon.png" alt="instagramm"></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <script src="./libs/jquery-3.4.1.min.js"></script>
+  <script src="./libs/bootstrap.min.js"></script>
+  <script src="./build/js/main.js"></script>
+  <script src="./build/js/validate.js"></script>
+  <script src="./libs/slick.min.js"></script>
+  <script src="./libs/jquery.nice-select.min.js"></script>
+  <script src="./libs/jquery.validate.min.js"></script>
+</body>
+
+</html>

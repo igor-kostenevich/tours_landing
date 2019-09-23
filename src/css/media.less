@@ -1,0 +1,438 @@
+@import "variables.less";
+
+@media screen and (max-width: 1540px) {
+    .offers {
+        .offers-slider {
+            max-width: 1625px;
+
+            .offers-slide {
+                margin-left: 5rem;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 1300px) {
+    .offers {
+        .offers-slider {
+            max-width: 1195px;
+
+            .offers-slide {
+                margin-left: 8.2rem;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 1277px) {
+    .header {
+        .banner {
+            .banner__box-content {
+                .banner-title {
+                    margin-left: 5%;
+                }
+
+                .banner-button {
+                    margin-left: 5%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .header .navigation-container .navbar-menu__links li:hover>.sub-menu {
+        display: block;
+        transition: 1s;
+    }
+
+    .advantage .advantage-box .advantage-box__text {
+        padding: 3rem 8rem 3.2rem 3rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .advantage .advantage-box .advantage-box__text {
+        padding: 3rem 8rem 3.2rem 3rem;
+    }
+
+    .select-form-tours {
+        .form-sel {
+            .input-item input[type=text] {
+                width: 89px;
+            }
+
+            .input-item input[type=email] {
+                width: 139px;
+            }
+
+            .input-item input[type=tel] {
+                width: 120px;
+            }
+
+            .nice-select {
+                width: 169px;
+            }
+        }
+    }
+
+    .footer .footer-content .footer-content__item {
+        &:nth-child(1) {
+            width: 23%;
+        }
+
+        &:nth-child(3) {
+            width: 14%;
+        }
+
+        &:nth-child(4) {
+            width: 28%;
+        }
+    }
+
+    .offers {
+        .offers-slider {
+            max-width: 900px;
+
+            .offers-slide {
+                height: 500px;
+                width: 238px;
+                margin-left: 6.5rem;
+
+                .offers-slide-card {
+                    display: flex;
+                    flex-direction: column;
+
+                    .image {
+                        justify-content: center;
+                        margin-bottom: 2rem;
+                        display: flex;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+@media screen and (max-width: 992px) {
+    html {
+        font-size: 9px;
+    }
+
+    .header {
+        .header-wrapp {
+            .navigation-container {
+                .navbar-menu {
+                    .navbar-menu__links .sub-menu {
+                        visibility: hidden;
+                    }
+
+                    .navbar-menu__links li {
+                        padding: 1rem 1.5rem;
+                    }
+
+                    .navbar-menu__links li>i.fas {
+                        right: -3px;
+                    }
+                }
+            }
+        }
+    }
+
+    .advantage .advantage-box .advantage-box__text {
+        line-height: 20px;
+        font-size: 0.8em;
+        padding-top: 1.5rem;
+        padding-right: 2rem;
+    }
+
+    .select-form-tours {
+        .form-sel {
+            padding-left: 0.8rem;
+            padding-right: 0.8rem;
+
+            .input-item input[type=text] {
+                width: 89px;
+            }
+
+            .input-item input[type=email] {
+                width: 139px;
+            }
+
+            .input-item input[type=tel] {
+                width: 120px;
+            }
+
+            .nice-select {
+                width: 169px;
+            }
+
+            .main-button button {
+                padding: 1rem;
+                font-size: 0.9em;
+            }
+        }
+    }
+
+
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .offers {
+        .offers-slider {
+            max-width: 810px;
+            .slick-next {
+                right: 20px;
+            }
+            .slick-prev {
+                left: 20px;
+            }
+
+            .offers-slide {
+                height: 500px;
+                width: 352px;
+                margin-left: 5rem;
+
+                .offers-slide-card {
+                    display: flex;
+                    flex-direction: column;
+
+                    .image {
+                        justify-content: center;
+                        margin-bottom: 2rem;
+                        display: flex;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        .container {
+            padding: 0;
+        }
+
+        .header-wrapp {
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+
+            .logo {
+                padding: 10px 0 0 10px;
+            }
+
+            .navigation-container {
+                flex-direction: inherit;
+                align-items: center;
+                margin-top: 1rem;
+                position: absolute;
+                width: 100%;
+
+                .header__contacts {
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 1rem;
+                    margin-bottom: 2rem;
+                    align-items: center;
+
+                    address {
+                        line-height: 22px;
+                        margin: 0;
+                    }
+                }
+
+                .navbar-menu {
+
+                    .btn-menu-mobile {
+                        display: block;
+                    }
+
+                    .navbar-menu__links {
+                        flex-direction: inherit;
+                        align-items: flex-start;
+                        margin: 0;
+
+                        li {
+                            margin: 0;
+                            padding: .6rem 2rem;
+                        }
+
+                        a {
+                            line-height: 15px;
+                        }
+
+                        li>i.fas {
+                            right: 34px;
+                        }
+                    }
+
+                    .navbar-menu__links {
+                        display: none;
+                    }
+                }
+            }
+
+        }
+
+        .banner {
+            right: 0;
+        }
+    }
+
+    .advantage .advantage-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .advantage-box__text {
+            font-size: 1em;
+            padding-top: 4.5rem;
+            width: 100%;
+        }
+    }
+
+    .section-title {
+        text-align: center;
+    }
+
+    
+
+    .select-form-tours {
+        h3 {
+            font-size: 22px;
+        }
+
+        .form-sel {
+            display: flex;
+            flex-direction: column;
+
+            .input-item {
+                margin-top: 3rem;
+            }
+
+            .input-item input[type=text] {
+                width: 180px;
+            }
+
+            .input-item input[type=email] {
+                width: 180px;
+            }
+
+            .input-item input[type=tel] {
+                width: 180px;
+            }
+
+            .nice-select {
+                width: 180px;
+            }
+
+            .main-button {
+                margin-top: 4rem;
+
+                button {
+                    padding: 1rem 1rem;
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+
+    .footer .footer-content {
+        flex-wrap: wrap;
+    }
+
+    .footer .footer-content .footer-content__item {
+        &:nth-child(1) {
+            width: 45%;
+            order: 1;
+        }
+
+        &:nth-child(2) {
+            width: 45%;
+            order: 4;
+            margin-top: 8rem;
+        }
+
+        &:nth-child(3) {
+            width: 45%;
+            order: 3;
+            margin-top: 8rem;
+        }
+
+        &:nth-child(4) {
+            width: 45%;
+            margin-top: 6rem;
+            order: 2;
+        }
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .header .header-wrapp {
+        .navigation-container {
+            width: 100%;
+            position: static;
+
+            .header__contacts {
+                display: none;
+            }
+        }
+    }
+
+    .select-form-tours {
+        h3 {
+            font-size: 18px;
+        }
+    }
+
+    .footer .footer-content {
+        position: relative;
+        flex-direction: column;
+
+        .footer-content__item {
+
+            &:nth-child(1) {
+                width: 85%;
+                order: 1;
+                margin: auto;
+            }
+
+            &:nth-child(2) {
+                width: 40%;
+                order: 4;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                margin: 2rem 2rem 0 2rem;
+
+            }
+
+            &:nth-child(3) {
+                width: 45%;
+                order: 3;
+                margin: 0 0 7rem 1rem;
+            }
+
+            &:nth-child(4) {
+                width: 88%;
+                margin: 6rem auto 4rem;
+                order: 2;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .header .banner .banner-title h1 {
+        font-size: 1.6em;
+        margin: 6.5rem 0 0 0;
+    }
+}
