@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Arial';
+  src: url('../../fonts/ArialMT.eot');
+  src: url('../../fonts/ArialMT.eot?#iefix') format('embedded-opentype'), url('../../fonts/ArialMT.woff') format('woff'), url('../../fonts/ArialMT.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Arial Bold';
+  src: url('../../fonts/Arial-BoldMT.eot');
+  src: url('../../fonts/Arial-BoldMT.eot?#iefix') format('embedded-opentype'), url('../../fonts/Arial-BoldMT.woff') format('woff'), url('../../fonts/Arial-BoldMT.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('../../fonts/FiraSans.eot');
+  src: url('../../fonts/FiraSans.eot?#iefix') format('embedded-opentype'), url('../../fonts/FiraSans.woff') format('woff'), url('../../fonts/FiraSans.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fira Sans SemiBold';
+  src: url('../../fonts/firasans-semibold-webfont.eot');
+  src: url('../../fonts/firasans-semibold-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/firasans-semibold-webfont.woff') format('woff'), url('../../fonts/firasans-semibold-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'slick';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../../fonts/slick.eot');
+  src: url('../../fonts/slick.eot?#iefix') format('embedded-opentype'), url('../../fonts/slick.woff') format('woff'), url('../../fonts/slick.ttf') format('truetype');
+}

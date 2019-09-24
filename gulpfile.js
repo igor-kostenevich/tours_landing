@@ -17,7 +17,8 @@ const styleFiles = [
 
 const scriptsFiles = [
     './src/js/main.js',
-    './src/js/validate.js'
+    './src/js/validate.js',
+    './src/js/lazy.js'
 ]
 
 gulp.task('styles', () => {
